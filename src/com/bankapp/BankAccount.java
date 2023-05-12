@@ -7,6 +7,14 @@ public class BankAccount {
     private String email;
     private int phoneNumber;
 
+    public BankAccount(int accountNumber, double balance, String customerName, String email, int phoneNumber) {
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+
     public int getAccountNumber() {
         return accountNumber;
     }
